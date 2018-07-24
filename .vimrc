@@ -1,19 +1,11 @@
-set nocompatible              " be iMproved, required
-filetype off                  " required
+source ~/.vim/bundles.vim
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+syntax on
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
+set nu!
 
-" vim-go
-Plugin 'fatih/vim-go'
+set background=dark
 
-" YCM
-Plugin 'Valloric/YouCompleteMe'
+set fo-=r
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " requir
+
