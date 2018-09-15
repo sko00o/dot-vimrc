@@ -6,7 +6,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle
 " required!
-Plugin 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 "------------------
 " Code Completions
@@ -60,7 +60,7 @@ Plugin 'nvie/vim-togglemouse'
 " Syntax/Indent for language enhancement
 "----------------------------------------
 "------- web backend ---------
-Plugin '2072/PHP-Indenting-for-VIm'
+"Plugin '2072/PHP-Indenting-for-VIm'
 "Plugin 'tpope/vim-rails'
 Plugin 'lepture/vim-jinja'
 "Plugin 'digitaltoad/vim-jade'
@@ -97,10 +97,10 @@ Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'rickharris/vim-blackboard'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'rickharris/vim-monokai'
-Plugin 'tpope/vim-vividchalk'
-Plugin 'Lokaltog/vim-distinguished'
+"Plugin 'tpope/vim-vividchalk'
+"Plugin 'Lokaltog/vim-distinguished'
 Plugin 'chriskempson/vim-tomorrow-theme'
-Plugin 'fisadev/fisa-vim-colorscheme'
+"Plugin 'fisadev/fisa-vim-colorscheme'
 
 call vundle#end()
 filetype plugin indent on     " required!
