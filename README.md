@@ -12,6 +12,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ## set proxy before following process
 # Launch `vim` and run `:PluginInstall`
 
+> YouCompleteMe plugin can install via `yaourt -S vim-youcompleteme-git`
 ```
 
 ## Ref
