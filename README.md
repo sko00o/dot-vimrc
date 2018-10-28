@@ -4,7 +4,7 @@
 mv ~/.vim ~/.vim.bak
 mv ~/.vimrc ~/.vimrc.bak
 
-git clone https://github.com/sko00o/dot-vimrc.git
+git clone https://github.com/sko00o/dot-vimrc.git ~/.vim
 ln -s ~/.vim/.vimrc ~/.vimrc
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
