@@ -15,8 +15,6 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.vim/bundle/YouCompleteMe/
 sudo pacman -S cmake
 ./install.py --all
-
-> YouCompleteMe plugin can install via `yay -S vim-youcompleteme-git`
 ```
 
 ## Ref
